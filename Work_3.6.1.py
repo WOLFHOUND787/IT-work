@@ -5,7 +5,7 @@ while True:      # Цикл будет работать до тех пор, по
     first_name = input("Имя:\n")
     second_name = input("Фамилия:\n")
     if first_name.isalpha() and second_name.isalpha():      # isalpha выдаст значение True, если имя строковое
-        print(f"Hello, {first_name}, {second_name}! You just delved into Python. Great start!")
+        print(f"Hello, {first_name} {second_name}! You just delved into Python. Great start!")
         break      # Остановка программы
     else:
         print("Пожалуйста, не используйте числа")
