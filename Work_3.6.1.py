@@ -8,5 +8,5 @@ while True:      # Цикл будет работать до тех пор, по
         print(f"Hello, {first_name} {second_name}! You just delved into Python. Great start!")
         break      # Остановка программы
     else:
-        print("Пожалуйста, не используйте числа")
+        print("Пожалуйста, не используйте числа и символы")
         break      # Остановка программы
